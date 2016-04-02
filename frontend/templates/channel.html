@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Twits - {{.DisplayName}}</title>
+    <link rel="stylesheet" type="text/css" href="../frontend/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../frontend/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header text-center"><a href="/">Twitch to VLC</a>
+                    <small>with <a href="http://docs.livestreamer.io/" target="_blanc">Livestreamer</a></small>
+                </h1>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>{{.Status}}<br><small>{{.DisplayName}} <strong>playing</strong>  {{.Game}}</small></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <a target="_blank" href="{{.URL}}/chat"><div>
+                    <i class="fa fa-twitch"></i> Open twitch chat
+                </div></a>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <script type="text/javascript" src="../frontend/js/jquery.js"></script>
+    <script type="text/javascript" src="../frontend/js/bootstrap.min.js"></script>
+</body>
+
+</html>

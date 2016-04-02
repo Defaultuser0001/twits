@@ -1,0 +1,416 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"P",
+				"Printf	n int, err error ƒ"
+			],
+			[
+				"channels",
+				"channels	*Channels ν"
+			],
+			[
+				"Gam",
+				"Game	string ν"
+			],
+			[
+				"n",
+				"Name	string ν"
+			],
+			[
+				"cha",
+				"Channel	struct ν"
+			],
+			[
+				"st",
+				"StdoutPipe	io.ReadCloser, error ƒ"
+			],
+			[
+				"F",
+				"Fprintf	n int, err error ƒ"
+			],
+			[
+				"startStream",
+				"startStream(\"http"
+			],
+			[
+				"response",
+				"ResponseWriter	interface ¡"
+			],
+			[
+				"Follo",
+				"FollowedChannel"
+			],
+			[
+				"json",
+				"json.NewDecoder	json-newdecoder"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.go",
+			"settings":
+			{
+				"buffer_size": 7343,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "frontend/templates/template.html",
+			"settings":
+			{
+				"buffer_size": 2353,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "frontend/css/style.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "frontend",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install	",
+				"Package Control: Install Package"
+			],
+			[
+				"goimports",
+				"GoSublime: Go to imports section"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sidebar",
+				"Side Bar: Refresh"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 361.0,
+		"history":
+		[
+			"go run test.go",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/jurgen/Development/go/src/twitch-on-vlc",
+		"/home/jurgen/Development/go/src/twitch-on-vlc/frontend",
+		"/home/jurgen/Development/go/src/twitch-on-vlc/frontend/css",
+		"/home/jurgen/Development/go/src/twitch-on-vlc/frontend/templates"
+	],
+	"file_history":
+	[
+		"/home/jurgen/Development/go/src/twitch-on-vlc/frontend/css/4-col-portfolio.css",
+		"/home/jurgen/Downloads/index.html",
+		"/home/jurgen/Development/go/src/twitch-on-vlc/frontend/css/style.css",
+		"/home/jurgen/Development/go/src/twitch-on-vlc/template.html",
+		"/home/jurgen/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
+		"/home/jurgen/Development/go/src/twitch-on-vlc/twitch_api/api.go",
+		"/home/jurgen/Development/go/src/twitch-on-vlc/main",
+		"/home/jurgen/Development/go/src/twitch-on-vlc/main.go",
+		"/home/jurgen/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md",
+		"/home/jurgen/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/jurgen/Development/go/src/twitch-on-vlc/twitch.html",
+		"/var/www/boerderijhetreestdal/wp-content/themes/travelify/functions.php",
+		"/var/www/boerderijhetreestdal/content/index.md",
+		"/home/jurgen/Development/go/src/practice/test.go",
+		"/home/jurgen/.config/sublime-text-3/Packages/GoSublime/USAGE.md"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"}\n",
+			"listTwitchStreams"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3670,
+								3670
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2085.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "frontend/templates/template.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1989,
+								1989
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "frontend/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "frontend",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///home/jurgen/.config/sublime-text-3/Packages/GoSublime":
+	{
+		"height": 301.0
+	},
+	"output.9o:///home/jurgen/Development/go/src/practice":
+	{
+		"height": 112.0
+	},
+	"output.GoSublime-main-output":
+	{
+		"height": 112.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "twitchapi.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
