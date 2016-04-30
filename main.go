@@ -9,7 +9,6 @@ import (
 	"net/http"
 	"os/exec"
 	"sort"
-	"sync"
 	"text/template"
 	"time"
 )
@@ -155,7 +154,7 @@ func main() {
 	flag.StringVar(&twitchUsername, "username", "", "set twitch username")
 	flag.Parse()
 	if vlcUrl == "" || twitchUsername == "" {
-		log.Fatal("Flags must be set")
+		log.Fatal("Flags must be set ('vlc' = path to vlc, 'username' = twitch username)")
 	}
 	http.HandleFunc("/", listTwitchStreams)
 	http.HandleFunc("/start_stream", startStream)
@@ -180,14 +179,15 @@ func listTwitchStreams(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		fmt.Errorf("Could not parse response body: %f", err)
 	}
-	var wg sync.WaitGroup
+	//	var wg sync.WaitGroup
 	channels := &CahnnelList{}
-	wg.Add(len(followedChannels.Follows))
+	//	wg.Add(len(followedChannels.Follows))
+	//test123 := bytes.Buffer
 	for _, following := range followedChannels.Follows {
 		getStreamRequest := fmt.Sprintf("https://api.twitch.tv/kraken/streams/%s", following.Channel.Name)
 
 		go func(getStreamRequest string, channels *CahnnelList) {
-			defer wg.Done()
+			//			defer wg.Done()
 			resp, err := http.Get(getStreamRequest)
 			if err != nil {
 				fmt.Errorf("Request '%s' gave the following error: %v", getRequest, err)
@@ -204,7 +204,7 @@ func listTwitchStreams(w http.ResponseWriter, r *http.Request) {
 			}
 		}(getStreamRequest, channels)
 	}
-	wg.Wait()
+	//	wg.Wait()
 	csStreams := Streams{}
 	getStreamsByGame("Counter-Strike:%20Global%20Offensive", 20, &csStreams)
 	lolStreams := Streams{}
